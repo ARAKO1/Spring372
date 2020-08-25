@@ -1,0 +1,6 @@
+select * from board;
+select * from myboard;
+select * from urboard;
+
+/* board sequence생성*/
+create sequence board_seq start with 1 increment by 1;
